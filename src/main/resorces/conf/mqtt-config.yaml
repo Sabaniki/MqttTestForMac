@@ -1,0 +1,11 @@
+broker: "tcp://localhost:1883"
+
+publish:
+  topic: "house/sabaniki-room"
+  qos: 1
+  clientId: "thermometer"
+
+subscribe:
+  topic: "house/sabaniki-room"
+  qos: 1
+  clientId: "cooler"
